@@ -1,0 +1,10 @@
+--- a/gdb/xtensa-tdep.h	2016-06-27 11:47:02.000000000 +0800
++++ b/gdb/xtensa-tdep.h	2016-06-27 13:03:52.000000000 +0800
+@@ -21,6 +21,7 @@
+ /* XTENSA_TDEP_VERSION can/should be changed along with XTENSA_CONFIG_VERSION
+    whenever the "tdep" structure changes in an incompatible way.  */
+ 
++#include <stdint.h>
+ #define XTENSA_TDEP_VERSION 0x60
+ 
+ /*  Xtensa register type.  */
